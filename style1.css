@@ -1,0 +1,60 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(white, rgb(226, 148, 207)); 
+    background-image: linear-gradient(to right, white, rgb(226, 148, 207)); 
+    background-image: linear-gradient(to left,white, rgb(226, 148, 207)); 
+    background-image: linear-gradient(to top,white, rgb(226, 148, 207)); 
+    background-image: linear-gradient(to top right,white, rgb(226, 148, 207));
+    background-image: linear-gradient(to bottom right,white, rgb(226, 148, 207));
+    background-image: linear-gradient(to top left,white, rgb(226, 148, 207));
+    background-image: linear-gradient(to bottom left,white,rgb(246, 103, 208),rgb(132, 84, 222)); 
+    background-image: linear-gradient(75deg,white,rgb(246, 103, 208),rgb(132, 84, 222)); 
+}
+
+/* For Radial Gradient */
+.box1{
+    margin: 10px;
+    border: 2px solid black;
+    height: 300px;
+    width: 250px;
+    background-image: radial-gradient(aqua,rgb(46, 39, 230),rgba(13, 111, 231, 0));
+    background-image: radial-gradient(aqua 5%,rgb(46, 39, 230) 75%,rgba(13, 111, 231, 0));
+
+}
+
+.box2{
+    margin: 20px;
+    border: 1px solid black;
+    height: 250px;
+    width: 200px;
+    background: conic-gradient(red, orange, yellow, green, blue);
+    background: conic-gradient(red 0deg, orange 90deg, yellow 180deg, green 270deg, blue 360deg);;
+
+}
+
+.textshadow{
+   text-shadow: 4px 4px 4px rgb(0, 255, 179),10px 10px 10px  rgb(255, 0, 162);
+   /* text-shadow: 4px 4px rgb(255, 217, 0); */
+
+   /* box-shadow: 2px 2px; */
+
+}
+
+.boxshadow{
+    box-shadow: -5px -5px 5px  blue,5px 5px 5px  blue;
+    background-color: aquamarine;    (same shadow chamges can be done like above textshadow)
+    height: 100px;
+    width: 100px;
+    /* border-collapse:1px solid blue; */
+}
+
+.transforms{
+    background-color: aqua;
+    /* transform: translate(10px ,10px);        transform is applicable for block elements(div),not for span elements(display: inline-size;) */
+    /* transform: rotate(45deg); */
+    /* transform: scale(2,2); */
+    transform: skew(180deg);
+}
+

@@ -1,0 +1,63 @@
+.container{
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column;
+    flex-direction: row ;      (By default horizontal axis is the reference axis for defining direction  ) */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse;  (By the use of reverse,the direction changes,ie top to bottom,right to left) */
+    flex-wrap: wrap; this function is used to try to maintain the width/height of the element like box
+     /*flex-wrap:nowrap  */
+     /* flex-wrap:wrap-reverse; */
+
+     justify-content:  flex-start;    main-axis
+     justify-content:  flex-end;
+     justify-content:center;
+     /* justify-content:space-around;    provides spaces to the boxes but the space is not even in start and in end. */
+     justify-content:space-evenly; provide the same and equal space to the start and end boxes as well.
+     justify-content:space-around;
+      
+     /* align-items:flex-start;   cross axis is vertical axis by default but for fleexe default axis is horizontal a0xis. */
+     align-items:flex-end;  cross-axis
+     align-items:center; 
+     /* align-items:stretch;  */
+     /* align-items:baseline; */
+
+     by  the use of baseline all the font(h tags) not get varied ,they comes in the same horizontal line.
+     without the baseline the font size disturbs the alignment variably.  
+     align-content:flex-start;
+     align-content:flex-end;
+     align-content:center;
+     align-content:space-around;
+     align-content:space-between;
+     align-content:space-evenly;
+
+
+
+
+
+     
+
+
+
+    }
+
+.box{
+    border: 1px solid green;
+    background-color: aquamarine;
+    width: 30px;
+    /* flex-grow:1; */ 
+
+}
+Notes;-
+justfy content  help me the boxes goes to start in the end
+
+#b1{
+    /* order: 1; */
+    /* flex-grow:10; */
+    flex-shrink: 4; this function increases the speed the shrinking ability.
+}
+
+#b2{
+    /* order: 7; */
+}
