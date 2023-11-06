@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <a rel="stylesheet" href="" -->
+    <style>
+        .box{
+         height: 200px;
+         width: 100px;
+        
+        background-color: rgb(60,50,40);
+        border:1px solid black;
+        border-collapse: collapse;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        padding-left: 150px;
+        padding-right: 100px;
+        padding-bottom: 25px;
+        padding-top: 100px;
+        box-sizing: border-box; (this is sed to keep the box size same afer adding padding as well.)
+        }                        (and by using box-size the color cant be altered after putting differemt color outside the box tag)
+        #A{
+            background-color:orange;
+        }
+        #B{
+            background-color: white;
+        }
+        #C{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="A"> A</div>   (By all these we can understand the specificity,order od id,class,and type selcetor)
+    <div class="box" id="B">B </div>
+    <div class="box" id="C">C </div>
+</body>
+</html>
